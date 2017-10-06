@@ -1,44 +1,80 @@
 {
-  "name": "react-progressbar.js",
-  "version": "0.2.0-dev",
-  "description": "React wrapper for progressbar.js",
-  "main": "dist/react-progressbar.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kimmobrunfeldt/react-progressbar.js.git"
-  },
-  "keywords": [
-    "react",
-    "progressbar",
-    "progress",
-    "loader",
-    "pace",
-    "bar",
-    "radial",
-    "circle",
-    "semicircle",
-    "line",
-    "indicator",
-    "loading",
-    "circular"
+  "_args": [
+    [
+      {
+        "raw": "InTeach/react-progressbar.js",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "InTeach/react-progressbar.js",
+        "spec": "github:inteach/react-progressbar.js",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:inteach/react-progressbar.js.git",
+          "sshUrl": "git+ssh://git@github.com/inteach/react-progressbar.js.git",
+          "httpsUrl": "git+https://github.com/inteach/react-progressbar.js.git",
+          "gitUrl": "git://github.com/inteach/react-progressbar.js.git",
+          "shortcut": "github:inteach/react-progressbar.js",
+          "directUrl": "https://raw.githubusercontent.com/inteach/react-progressbar.js/master/package.json"
+        }
+      },
+      "/Users/quentinvalmori/Sites/BugRNInTeach/upgradeRN/Application"
+    ]
   ],
-  "author": "Kimmo Brunfeldt <kimmobrunfeldt@gmail.com> (http://kimmobrunfeldt.github.io/)",
-  "license": "MIT",
+  "_from": "inteach/react-progressbar.js",
+  "_id": "react-progressbar.js@0.2.0-dev",
+  "_inCache": true,
+  "_location": "/react-progressbar.js",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "InTeach/react-progressbar.js",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "InTeach/react-progressbar.js",
+    "spec": "github:inteach/react-progressbar.js",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:inteach/react-progressbar.js.git",
+      "sshUrl": "git+ssh://git@github.com/inteach/react-progressbar.js.git",
+      "httpsUrl": "git+https://github.com/inteach/react-progressbar.js.git",
+      "gitUrl": "git://github.com/inteach/react-progressbar.js.git",
+      "shortcut": "github:inteach/react-progressbar.js",
+      "directUrl": "https://raw.githubusercontent.com/inteach/react-progressbar.js/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git://github.com/inteach/react-progressbar.js.git#030f5a4026c5bed56d1a7d4acae635e4f4aae7aa",
+  "_shasum": "32a3c2980d9e1e2d86561e551226fac0c4c52c2e",
+  "_shrinkwrap": null,
+  "_spec": "InTeach/react-progressbar.js",
+  "_where": "/Users/quentinvalmori/Sites/BugRNInTeach/upgradeRN/Application",
+  "author": {
+    "name": "Kimmo Brunfeldt",
+    "email": "kimmobrunfeldt@gmail.com",
+    "url": "http://kimmobrunfeldt.github.io/"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
   "bugs": {
     "url": "https://github.com/kimmobrunfeldt/react-progressbar.js/issues"
   },
-  "homepage": "https://github.com/kimmobrunfeldt/react-progressbar.js#readme",
   "dependencies": {
     "lodash.isequal": "^4.1.4",
     "progressbar.js": "^1.0.1"
   },
-  "peerDependencies": { 
-    "react": "^16.0.0", 
-    "react-dom": "^16.0.0"
-  },
+  "description": "React wrapper for progressbar.js",
   "devDependencies": {
     "babel": "^6.5.2",
-    "babel-cli": "^6.7.7",
+    "babel-cli": "^6.26.0",
     "babel-eslint": "^6.0.3",
     "babel-jscs": "^3.0.0-beta1",
     "babel-plugin-transform-es2015-modules-umd": "^6.6.5",
@@ -60,18 +96,45 @@
     "string": "^3.3.1",
     "watchify": "^3.4.0"
   },
-  "browserify": {
-    "transform": [
-      "babelify"
-    ]
+  "gitHead": "030f5a4026c5bed56d1a7d4acae635e4f4aae7aa",
+  "homepage": "https://github.com/kimmobrunfeldt/react-progressbar.js#readme",
+  "keywords": [
+    "react",
+    "progressbar",
+    "progress",
+    "loader",
+    "pace",
+    "bar",
+    "radial",
+    "circle",
+    "semicircle",
+    "line",
+    "indicator",
+    "loading",
+    "circular"
+  ],
+  "license": "MIT",
+  "main": "dist/react-progressbar.js",
+  "name": "react-progressbar.js",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "readme": "# react-progressbar.js\n\n<br>\n![Demo animation](docs/animation.gif)\n\n<br>\nResponsive and slick progress bars for React. Line, Circle and SemiCircle shaped\nprogress bars are provided and their animations are highly [customizable](https://github.com/kimmobrunfeldt/progressbar.js#custom-animations).\n\nThis module is a React wrapper for [progressbar.js](https://github.com/kimmobrunfeldt/progressbar.js).\nThat's why most of the documentation refers to the original documentation.\n\n**Shortcuts**\n\n* [How to install](#how-to-install)\n* [API documentation](#api)\n* [Demos](http://kimmobrunfeldt.github.io/progressbar.js/) *These demos use the original progressbar.js but the options are exactly the\nsame for react-progressbar.js too*\n\n\n\n## Get started\n\n*react-progressbar.js* is lightweight, MIT licensed and supports all major browsers including **IE9+**.\n\n#### How to install\n\nInstall the library using npm:\n\n```\nnpm install --save react-progressbar.js\n```\n\nSince React users are anyways using a CommonJS module loader, this module is published\nonly in NPM.\n\n#### Loading module\n\nCommonJS\n\n```javascript\nvar ProgressBar = require('react-progressbar.js')\nvar Circle = ProgressBar.Circle;\n```\n\n## How it works\n\nSee https://github.com/kimmobrunfeldt/progressbar.js#how-it-works.\n\n## API\n\n**NOTE:** Line, Circle and SemiCircle all point to the same\ndocumentation which is named Shape. You almost certainly should\nreplace it(Shape) with Line, Circle or SemiCircle.\n\n**Example:** if documentation states `<Shape />`, replace it with\n`<Circle />`, simple. Shape is the internal base object for all\nprogress bars.\n\n[**ProgressBar**](#api)\n\n* [Line](#shape)\n* [Circle](#shape)\n* [SemiCircle](#shape)\n\n**Important:** make sure that your container has same aspect ratio\nas the SVG canvas. For example: if you are using SemiCircle,\nset e.g.\n\n```css\n#container {\n    width: 300px;\n    height: 150px;\n}\n```\n\n### Shape\n\nLine, Circle or SemiCircle shaped progress bar. Appends SVG to container.\n\n**Example**\n\n```js\nvar App = React.createClass({\n    render: function render() {\n        var options = {\n            strokeWidth: 2\n        };\n\n        // For demo purposes so the container has some dimensions.\n        // Otherwise progress bar won't be shown\n        var containerStyle = {\n            width: '200px',\n            height: '200px'\n        };\n\n        return (\n            <Circle\n                progress={this.state.progress}\n                text={'test'}\n                options={options}\n                initialAnimate={true}\n                containerStyle={containerStyle}\n                containerClassName={'.progressbar'} />\n        );\n    }\n});\n```\n\nWith Line shape, you can control the width of the line by specifying e.g. `height: 5px`\nwith CSS.\n\n**Props:**\n\nProp               | Description\n-------------------|------------------------\nprogress           | Progress from 0 to 1. E.g. 67% progress would equal `0.67`. Default `0`.\ntext               | Value for progress bar's text. Default `null`.\noptions            | Options for path drawing. See [progressbar.js documentation](https://github.com/kimmobrunfeldt/progressbar.js#shapecontainer-options).\ninitialAnimate     | If `true`, progress bar is animated to given progress when mounted. Default `false`.\ncontainerStyle     | Styles for progress bar container. Default `{}`.\ncontainerClassName | Class name for progress bar container. Default `.progressbar-container`.\n\n## Contributing\n\nSee [documentation for contributors](CONTRIBUTING.md).\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimmobrunfeldt/react-progressbar.js.git"
   },
   "scripts": {
-    "start": "concurrent 'npm run serve' 'npm run watch-js' 'open http://localhost:8080'",
-    "watch-js": "watchify local-dev/main.js -t reactify -o local-dev/bundle.js --debug --verbose",
     "build": "babel src/main.js -o ./dist/react-progressbar.js",
-    "serve": "http-server ./local-dev -c 0",
-    "lint": "./tools/lint.sh",
+    "eslint": "eslint --ext .js ./src ./test",
     "jscs": "jscs ./src ./test",
-    "eslint": "eslint --ext .js ./src ./test"
-  }
+    "lint": "./tools/lint.sh",
+    "serve": "http-server ./local-dev -c 0",
+    "start": "concurrent 'npm run serve' 'npm run watch-js' 'open http://localhost:8080'",
+    "watch-js": "watchify local-dev/main.js -t reactify -o local-dev/bundle.js --debug --verbose"
+  },
+  "version": "0.2.0-dev"
 }
